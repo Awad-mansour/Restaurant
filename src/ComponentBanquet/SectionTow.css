@@ -1,0 +1,31 @@
+
+.cont-have{
+  display: inline-block;
+  text-align: center;
+  width: 700px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+
+.cont-have span{
+  font-size: 30px;
+  color: #D22525;
+}
+
+.cont-have h3{
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .cont-have{
+    width: 300px;
+    margin-left: 10px;
+  }
+  .cont-have span{
+    font-size: 20px;
+  }
+  .cont-have h3 {
+    font-size: 20px;
+  }
+}

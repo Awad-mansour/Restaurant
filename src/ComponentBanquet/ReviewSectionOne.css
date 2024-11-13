@@ -1,0 +1,13 @@
+
+.ReviewSectionOne{
+  margin-top: 50px;
+}
+.ReviewSectionOne h2{
+  color: white;
+}
+.ReviewSectionOne p {
+  color: white;
+  line-height: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+}

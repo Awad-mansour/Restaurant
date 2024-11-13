@@ -1,0 +1,94 @@
+
+
+.back-color{
+  background-color: white !important;
+  height: fit-content;
+}
+.wediing-h1{
+  color: black !important;
+  padding-top: 50px;
+  text-decoration-line: underline;
+
+}
+
+.wedding-p{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.lists-wedding{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 50px;
+}
+.lists-wedding:last-child{
+  padding-bottom: 50px;
+
+}
+.lists-wedding ul{
+  list-style: none;
+}
+.standard{
+  background-color: black;
+  height: fit-content;
+}
+.standard ul li{
+  padding: 20px;
+}
+.standard ul li:first-child{
+  border-bottom: 1px solid #D9D9D9;
+  padding: 25px 0;
+}
+
+.cocktail{
+  background-color: #333;
+}
+.cocktail ul li {
+  padding: 10px;
+}
+.cocktail ul li:first-child{
+  padding: 25px 0;
+  border-bottom: 1px solid #D9D9D9;
+
+}
+
+.buffet{
+  background-color: black;
+}
+.buffet ul li {
+  padding: 5px;
+}
+.buffet ul li:first-child{
+  padding: 25px 0;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.desserts{
+  background-color: #333;
+}
+.desserts ul li {
+  padding: 10px;
+}
+.desserts ul li:first-child {
+  padding: 25px 0;
+  border-bottom: 1px solid #D9D9D9;
+}
+.extras{
+  background-color: black;
+}
+.extras ul li {
+  padding: 10px;
+}
+.extras ul li:first-child {
+  padding: 25px 0;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+@media screen and (max-width: 768px) {
+  .lists-wedding{
+    display: block;
+  }
+}

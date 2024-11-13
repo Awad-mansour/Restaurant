@@ -1,0 +1,38 @@
+
+.cont-phot{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.butoon-have{
+  margin-top: 30px;
+  display: flex;
+  
+}
+
+.butoon-have button{
+  text-decoration: none !important;
+  color: white;
+  height: 60px !important;
+  width: 200px !important;
+  background-color: #D22525;
+  text-align: center;
+  padding: 20px 0;  
+  border-radius: 6px;
+  border: none;
+
+ }
+
+
+ 
+@media screen and (max-width: 768px) {
+  .butoon-have {
+    display: block !important;
+    margin-left: 45px;
+  }
+  .butoon-have button{
+    margin-bottom: 10px;
+
+  }
+}

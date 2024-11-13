@@ -1,0 +1,22 @@
+
+.product-item {
+  display: flex !important;
+  justify-content: space-evenly;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.product-item img{
+  max-width: 250px;
+  height: 250px;
+  transition: transform 0.7s ease;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+
+.product-item img:hover{
+  transform: scale(1.5);
+
+
+}

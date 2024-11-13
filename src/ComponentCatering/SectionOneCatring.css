@@ -1,0 +1,11 @@
+
+
+.paragraphes{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.paragraphes p{
+  color: white;
+  padding: 10px 0;
+  font-size: 20px;
+}

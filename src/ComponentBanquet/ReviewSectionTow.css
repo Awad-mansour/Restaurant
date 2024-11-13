@@ -1,0 +1,58 @@
+
+.ReviewSectionTow{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+.ReviewSectionTow .decor{
+  background-color: white;
+  height: 500px;
+  margin-top: -40px;
+  width: 400px;
+  text-align: center;
+}
+.ReviewSectionTow .decor ul{
+list-style: none;
+}
+.ReviewSectionTow .decor ul li{
+  padding: 15px;
+  font-size: 20px;
+}
+
+.ReviewSectionTow .wdm{
+  background-color: white;
+  height: 400px;
+  width: 700px;
+  border-left: 3px solid black;
+
+}
+.ReviewSectionTow .wdm ul{
+  list-style: none;
+}
+.ReviewSectionTow .wdm ul li{
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 40px;
+}
+.br-red{
+  border-bottom: 3px solid black;
+  color: #D22525;
+}
+
+
+@media screen and (max-width: 768px) {
+  .ReviewSectionTow{
+    display: block;
+  }
+  .ReviewSectionTow .decor{
+    width: 300px;
+    margin-left: 10px;
+    height: 400px;
+  }
+  .ReviewSectionTow .wdm{
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: start;
+  }
+}

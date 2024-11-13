@@ -1,0 +1,29 @@
+
+
+.main-gallry{
+  display: flex !important;
+  gap: 10px;
+}
+.main-gallry img {
+  width: 250px;
+  height: 300px;
+}
+
+.gallery-slid{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery-slid img {
+    width: 100% !important; /* جعل الصورة تأخذ العرض الكامل */
+    height: auto; /* الحفاظ على نسبة الارتفاع التلقائي */
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .gallery-slid img {
+    width: 45% !important; /* عرض 45% لكل صورة على الشاشات المتوسطة */
+    height: auto;
+  }
+}

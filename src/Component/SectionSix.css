@@ -1,0 +1,57 @@
+
+
+.section-six{
+  display: flex;
+  background-color: black;
+}
+.section-six div img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.section-six img {
+  filter: blur(3px);
+  transition: 0.5s ease-in-out;
+}
+.section-six img:hover{
+  filter: none;
+  /* transform: rotate(15deg) scale(1.4); */
+}
+.section-find{
+  background-image: url(../imgs/Rectangle\ 32.png);
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.section-find h1{
+  color: #E95050;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 32%;
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+.section-find p{
+  color: white;
+  position: absolute;
+  margin-top: 200px ;
+  margin-left: 20%;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-find{
+    width: 100%;
+    background-size: cover;
+  }
+  .section-find h1{
+    font-size: 35px;
+    margin-left: 7%;
+  }
+  .section-find p{
+    font-size: 20px;
+    margin-left: 10%;
+  }
+}

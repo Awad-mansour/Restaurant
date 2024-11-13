@@ -1,0 +1,102 @@
+
+
+.package-background {
+  background-image: url('../imgs/Rectangle 89.png');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px; 
+}
+
+.main-card-package{
+  display: flex;
+}
+.package-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.package-description p {
+  font-size: 18px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.package-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.package-card {
+  background-color: #D9D9D9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: left;
+}
+
+.package-card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.package-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.package-card li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+.package-price button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.package-price button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .package-card {
+    width: 100%;
+    max-width: none;
+    margin: 0 20px;
+  }
+
+  .package-description p {
+    font-size: 16px;
+  }
+
+  .package-card h2 {
+    font-size: 22px;
+  }
+
+  .package-card li {
+    font-size: 14px;
+  }
+
+  .package-price button {
+    font-size: 14px;
+  }
+  .main-card-package{
+    display: block;
+  }
+}

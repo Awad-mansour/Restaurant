@@ -1,0 +1,62 @@
+ 
+
+
+ .our-menu{
+  background-image: url(../imgs/Rectangle\ 24.png);
+   height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+ }
+ .our-menu-ccont{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+ }
+ .our-menu-ccont h2{
+  color:#D22525 ;
+  font-size: 50px;
+  letter-spacing: 3px;
+  
+ }
+
+ .our-menu-ccont p{
+  width: 70%;
+  margin-top: 40px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 60px;
+ }
+ .our-menu-ccont button{
+  border: none;
+  width: 300px;
+  height: 80px;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.573);
+  color: whitesmoke;
+  margin-top: 30px;
+ }
+
+ @media screen and (max-width: 768px) {
+  .our-menu-ccont p{
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-align: start;
+  }
+  .our-menu-ccont button{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .our-menu-ccont{
+    margin-top: 10vh;
+  }
+ }

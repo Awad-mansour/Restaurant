@@ -1,0 +1,162 @@
+
+
+
+
+.light{
+  background-color: white;
+  color: black;
+}
+
+ .dark{
+  background-color: black;
+  color: white;
+}
+
+.active-link {
+  color: #D22525;
+  font-weight: bold;
+}
+
+
+
+/* 
+nav{
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+}
+
+.nav-li{
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+}
+.nav-li li a{
+  text-decoration: none;
+  margin-left: 40px;
+  color: white;
+}
+.nav-li li a:hover{
+  color: #EB2D29;
+}
+.logo{
+  display: flex;
+  margin-left: 30px;
+}
+
+.logo-cont p{
+  color: #EB2D29;
+}
+h2 .sp-one{
+  color: #FF7E0D;
+}
+h2 .sp-two{
+  color: #2555D2;
+}
+.logo-cont{
+  margin-top: 40px;
+  padding: 5px;
+}
+.button{
+  height: 50px;
+  width: 120px;
+  background-color: #EB2D29;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+
+.toggle{
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+
+
+ */
+/* 
+
+@media screen and (max-width: 768px) {
+  .nav-li{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    top: 140px;
+    height: 300px;
+    background-color: #333;
+    z-index: 100;
+    
+  }
+  
+  .nav-li li {
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #444;
+  }
+  .button{
+    position: absolute;
+    margin-left:500px;
+  }
+  .toggle{
+    display: block;
+    margin-right: 40px;
+    font-size: 30px;
+    margin-top: -15px;
+    
+  }
+} */
+
+.navbar{
+  background-color:#000000 !important;
+}
+.nav-link{
+  color: white !important;
+  
+}
+.nav-link:hover{
+  color: #EB2D29 !important;
+}
+.nav-link.active {
+  color: #d22525 !important; 
+  font-weight: bold !important;
+}
+.navbar-toggler{
+  color: white !important;
+}
+h2 :first-child{
+color:#FF7E0D ;
+}
+h2 :last-child{
+  color:#2555D2 ;
+}
+p{
+  color:#EB2D29 ;
+}
+.btn-book{
+  border: none;
+  background-color: #EB2D29;
+  color: white;
+  width: 200px;
+  height: 60px;
+}
+.logo-cont{
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo-cont{
+    margin-left: 30px;
+  }
+  .logo{
+    width: 50px;
+    font-size: 50px;
+  }
+}

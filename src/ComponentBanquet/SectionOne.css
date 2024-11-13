@@ -1,0 +1,29 @@
+
+
+.bamaq-img{
+  background-image: url(../imgs/Rectangle\ 40\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
+.bamaq-img h1{
+  font-size: 70px;
+  letter-spacing: 5px;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  
+  .bamaq-img h1{
+    font-size: 50px; 
+    margin: 0 20px; 
+  }
+  
+}

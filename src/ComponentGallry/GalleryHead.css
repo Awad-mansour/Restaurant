@@ -1,0 +1,25 @@
+
+.GalleryHead{
+  background-image: url(../imgs//Rectangle\ 40\ \(3\).png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
+.GalleryHead h1{
+  font-size: 70px;
+  letter-spacing: 5px;
+  color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .GalleryHead h1{
+    font-size: 50px; 
+    margin: 0 20px; 
+  }
+}
